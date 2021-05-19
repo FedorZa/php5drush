@@ -48,6 +48,4 @@ EXPOSE 22
 
 VOLUME ["/etc/php5/custom.d", "/app", "$HENCE_APP_VOL_PREFIX/conf", "$HENCE_APP_VOL_PREFIX/logs/php-general-logs", "$HENCE_APP_VOL_PREFIX/logs/php-error-logs","/vendor", "/config"]
 
-WORKDIR /app
 
-ENTRYPOINT /bin/bash
