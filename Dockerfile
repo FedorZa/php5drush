@@ -40,6 +40,7 @@ RUN curl -sS https://getcomposer.org/installer \
 
 RUN echo nameserver 8.8.8.8 > /etc/resolve.conf 
 RUN composer global require drush/drush:8.*
+RUN ln -s /root/.config/composer/vendor/bin/drush /usr/bin/drush
 
 RUN useradd fedor
 
