@@ -14,6 +14,7 @@ RUN apt update && apt install -y \
     php5.6-ldap \
     php5.6-mcrypt \
     php5.6-memcache \
+    php5.6-memcached \
     php5.6-mysql \
     php5.6-mysqli \
     php5.6-opcache \
